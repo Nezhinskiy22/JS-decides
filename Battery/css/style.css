@@ -1,0 +1,63 @@
+#battery {
+    width: 300px;
+    height: 90px;
+    border: 1px solid #c0c0c0;
+    border-radius: 6px;
+    padding: 10px;
+    position: relative;
+}
+
+#battery::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 40px;
+    background: #fff;
+    position: absolute;
+    right: -22px;
+    top: 32px;
+    border: 1px solid #c0c0c0;
+    border-left-color: #fff;
+    border-radius: 0 4px 4px 0;
+}
+
+#battery-level {
+    height: 100%;
+    width: 30%;
+    border-radius: 4px;
+    background: background: rgba(179, 220, 237, 1);
+    background: -moz-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179, 220, 237, 1)), color-stop(50%, rgba(41, 184, 229, 1)), color-stop(100%, rgba(188, 224, 238, 1)));
+    background: -webkit-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: -o-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: linear-gradient(to right, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1);
+    transition: all ease 1s;
+}
+
+#battery-level-digit {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-size: 70px;
+    line-height: 108px;
+}
+
+#battery-level.battery-animation {
+    animation-name: battery-charget;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes battery-charget {
+    0% {
+        width: 20%;
+    }
+    100% {
+        width: 100%;
+    }
+}

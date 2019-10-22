@@ -1,0 +1,15 @@
+body {
+    padding: 30px;
+}
+
+.elastic li.hide {
+    display: none;
+}
+
+#elastic {
+    width: 30%;
+}
+
+mark {
+    background: pink;
+}

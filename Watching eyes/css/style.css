@@ -1,0 +1,44 @@
+body {
+    padding: 60px;
+    background: brown;
+}
+
+.y-1 {
+    background: cornsilk;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    float: left;
+}
+
+.y-2 {
+    height: 30px;
+    width: 30px;
+    background: black;
+    position: absolute;
+    left: 70px;
+    bottom: 35px;
+    border-radius: 100%;
+}
+
+.y-3 {
+    background: cornsilk;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: relative;
+    float: left;
+}
+
+.y-4 {
+    height: 30px;
+    width: 30px;
+    background: black;
+    position: absolute;
+    left: 70px;
+    bottom: 35px;
+    border-radius: 100%;
+}
