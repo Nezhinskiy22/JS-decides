@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #f4f6f8;
+    font-family: Arial, Tahoma, sans-serif;
+    color: #34404b;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {}
+
+h3 {
+    margin: 20px 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: #ff5912;
+}
+
+.section-description {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+
+/* -------------------------footer */
+
+.site-footer h1,
+.site-footer h2,
+.site-footer h3,
+.site-footer h4 {
+    font-size: 16px;
+    color: #ff5912;
+}
+
+.row {
+    margin: 0 -1.25%;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.site-footer {
+    background: #ffffff;
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+    color: #28313b;
+}
+
+.block-370 {
+    width: 30.83%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-270 {
+    width: 20%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+.block-170 {
+    width: 14.166666%;
+    min-height: 100px;
+    float: left;
+    margin: 0 1.25%;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {}
+
+h3 {
+    margin: 20px 0;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 span {
+    color: #ff5912;
+}
+
+.section-description {
+    text-align: center;
+}
+
+.goods-block {
+    margin: 80px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.goods-cart {
+    min-height: 350px;
+    background: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.goods-cart:hover {}
+
+.goods-cart img {
+    margin-top: 30px;
+}
+
+.goods-cart .goods-name {
+    color: #34404b;
+}
+
+.goods-cart .cost {
+    color: #ff5912;
+}
